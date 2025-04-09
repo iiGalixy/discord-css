@@ -2,7 +2,7 @@
      --background: url('https://images.alphacoders.com/632/632525.png');
      --activetext-colour: white;
  
-     --primary1-colour: red;
+     /*--primary1-colour: red;*/
      --primary2-colour: rgba(255,0,0,0.5);
      --primary3-colour: rgba(100,0,0,0.6);
  
@@ -962,9 +962,20 @@
         left: 43.2%;
     }
 
-     button.button-38aScr {
-       all: unset;
-     }
+/* Fix: Restore default button styles for embed buttons */
+button.button__581d0 {
+  background-color: var(--button-background) !important;
+  color: var(--button-text) !important;
+  border-radius: 4px !important;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Reset toggle state (on/off) */
+button[aria-pressed="true"] {
+  background-color: var(--button-selected-background) !important;
+  color: var(--button-selected-text) !important;
+}
+
 
     #app-mount .wordmark__421ed {top: 3.3px;}
     #app-mount .winButton__421ed {top: 2px;}
