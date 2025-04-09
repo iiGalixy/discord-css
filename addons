@@ -6,6 +6,23 @@
  * @source https://github.com/iiGalixy/discord-css
  */
 
+
+:root {
+  --mentioned-color: 255, 0, 0;
+}
+
+.mentioned-xhSam7::before {
+  background-color: rgb(var(--mentioned-color));
+}
+.mentioned-xhSam7 {
+  background-color: rgba(var(--mentioned-color), 0.1);
+}
+#app-mount .mentioned-xhSam7:hover,
+#app-mount .mentioned-xhSam7.selected-2P5D_Z {
+  background-color: rgba(var(--mentioned-color), 0.15);
+}
+
+/* Pings */
 .numberBadge-2s8kKX {
   animation: animatedPing 1.3s infinite ease-in-out;
 }
@@ -21,6 +38,7 @@
   }
 }
 
+/* Panels */
 .panels-3wFtMD {
   margin: 5px;
   border: 1px solid var(--background-secondary);
@@ -28,16 +46,25 @@
   box-shadow: 0 0 6px 2px rgba(0, 255, 255, 0.4);
 }
 
+/* Rainbow User ID */
 .subtext-3CDbHg,
 .customStatus-3tC2ig,
 .hovered-d5PMVU,
 .title-eS5yk3 {
-  background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+  background-image: linear-gradient(
+    to left,
+    rgb(51, 255, 0),
+    rgb(255, 230, 0),
+    red,
+    rgb(234, 0, 255),
+    rgb(0, 140, 255),
+    rgb(51, 255, 0)
+  );
   animation: gradient-border 4s linear infinite;
   background-size: 400% 100%;
   color: transparent !important;
   -webkit-background-clip: text;
-  text-shadow: 0 0 5px rgba(255,255,255,0.2);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
   z-index: 1;
 }
 @keyframes gradient-border {
