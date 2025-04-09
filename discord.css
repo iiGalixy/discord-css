@@ -17,6 +17,9 @@
      --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
      --button-background: var(--brand-experiment);
      --button-text: var(--white-500);
+     --embed-on-color: green;
+     --embed-off-color: red;
+
  }
    
  /*
