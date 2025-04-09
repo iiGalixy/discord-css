@@ -375,11 +375,11 @@
         #app-mount .chat_f75fb0 .scrollableContainer__74017 { background-color: var(--secondary3-colour); }
 
         /*Embeds*/
-            #app-mount .embedFull__623de {
+        /*    #app-mount .embedFull__623de {
                 background-color: var(--secondary1-colour); 
                 border-left: 4px solid;
                 border-radius: 10px!important;
-            }
+            } */
 
         /*Media Player*/
             #app-mount .unreadBar-3YD_k9 {background-color: var(--primary1-colour);}
