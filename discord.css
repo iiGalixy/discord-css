@@ -965,19 +965,3 @@
     #app-mount .wordmark__421ed {top: 3.3px;}
     #app-mount .winButton__421ed {top: 2px;}
 
-
-     /* Restore default embed button behavior */
-.button,
-.lookFilled- {
-  background-color: unset !important;
-  color: unset !important;
-  box-shadow: unset !important;
-  filter: unset !important;
-}
-
-/* Ensure toggle states display correctly */
-button[aria-pressed="true"] {
-  background-color: var(--button-selected-background) !important;
-  color: var(--button-selected-text) !important;
-}
-
