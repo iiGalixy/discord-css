@@ -962,3 +962,8 @@
 
     #app-mount .wordmark__421ed {top: 3.3px;}
     #app-mount .winButton__421ed {top: 2px;}
+
+.button {
+  background-color: var(--button-background) !important;
+  color: var(--button-text) !important;
+}
