@@ -966,3 +966,19 @@
     #app-mount .wordmark__421ed {top: 3.3px;}
     #app-mount .winButton__421ed {top: 2px;}
 
+/* Other variables */
+}
+
+.embed {
+  /* Common embed styles */
+  border-width: 2px;
+  border-style: solid;
+}
+
+.embed.on {
+  border-color: var(--embed-on-color);
+}
+
+.embed.off {
+  border-color: var(--embed-off-color);
+}
